@@ -24,5 +24,5 @@ for i in range(0, 3):
         print("\nYou Lost this Round!\n\n")
         bot_points += 1
 
-print("Player Wins: ", user_points)
-print("Bot Wins: ", bot_points)
+print(f"Player Wins: {user_points}")
+print(f"Bot Wins: {bot_points}")

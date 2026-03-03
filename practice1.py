@@ -22,4 +22,4 @@ original_price = 75
 discount_rate = 15
 discount = discount_rate / 100
 final_price = original_price - original_price * discount
-print("The final price after discount is: $", final_price)
+print(f"The final price after discount is: ${final_price}")
